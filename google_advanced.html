@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            #images, #google{
+                font-family: Arial, sans-serif;
+                color:black;
+                text-decoration: none;
+                position:absolute;
+                font-size:13px;
+                top: 30px;
+            }
+
+            #images{
+                right: 120px;
+            }
+
+            #google{
+                right: 45px;
+            }
+            .row{
+                margin-top:15px;
+            }
+            #col3{
+                font-size: 12px;
+            }
+            #row1col1{
+                font-size:17px;
+            }
+
+            #row1col3{
+                font-weight:bold;
+                color: gray;
+            }
+            #col3{
+                color:gray;
+            }
+            input[type=text]{
+                width:560px;
+                height: 30px;
+                border-style:solid;
+                border-color:lightgray;
+                border-width:thin;
+                outline-color: rgb(66,133,244);
+            }
+            .logo{
+                background-color:rgba(220,220,220,0.4);
+            }
+            #col1{
+                font-size:13px;
+            }
+            img{
+                margin: 15px 0px 15px 10px;
+            }
+            .advancedSearch{
+                margin: 20px 0px 20px 45px;
+                color: rgb(217,48,37);
+                font-size: 21px;
+            }
+            .fullRow{
+                border-top: 2px solid rgba(220,220,220,0.4);
+                margin-bottom:50px;
+            }
+
+            #buttons{
+                height: 35px;
+                margin-top:15px;
+                margin-right:7px;
+                margin-left:720px;
+                border-radius:5px;
+                border-style:solid;
+                transition-duration: 0.4s;
+                border-color:transparent;
+                background-color:rgb(66,133,244);
+                color:white;
+                font-weight:bold;
+                font-size:12px;
+            }
+
+            #buttons:hover {
+                border-width: 1px;
+                border-color:darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="https://i.ibb.co/Q8MR2z5/115843776-771776780231297-3025299803655054775-n.png" alt="Google Logo" width="8%">
+        </div>
+        <div class="advancedSearch">
+            Advanced Search
+        </div>
+        <div class="fullRow">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="row1col1" class="col-2">
+                    Find pages with...
+                </div>
+                <div id="col2" class="col-6">
+
+                </div>
+                <div id="row1col3" class="col-4">
+                    To do this in the search box.
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="col1" class="col-2">
+                    all these words:
+                </div>
+                <div id="col2" class="col-6">
+                    <input type="text" name="all">
+                </div>
+                <div id="col3" class="col-4">
+                    Type the important words: tri-colour rat terrier
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="col1" class="col-2">
+                    this exact word or phrase:
+                </div>
+                <div id="col2" class="col-6">
+                    <input type="text" name="all">
+                </div>
+                <div id="col3" class="col-4">
+                    Put exact words in quotes: "rat terrier"
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="col1" class="col-2">
+                    any of these words:
+                </div>
+                <div id="col2" class="col-6">
+                    <input type="text" name="all">
+                </div>
+                <div id="col3" class="col-4">
+                    Type OR between all the words you want: miniature OR standard
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="col1" class="col-2">
+                    none of these words:
+                </div>
+                <div id="col2" class="col-6">
+                    <input type="text" name="all">
+                </div>
+                <div id="col3" class="col-4">
+                    Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </div>
+            </div>
+        </div>
+
+        <a id="google" href="index.html">Google</a>
+        <a id="images" href="google_images.html">Images</a>
+    
+        <input width ="100" type="submit" value="Advanced Search" id="buttons">      
+     
+        
+    </body>
+</html>
