@@ -15,7 +15,7 @@ h1{
     position:absolute;
     font-size:13px;
     top: 30px;
-    right: 165px;
+    right: 45px;
 }
 
 #images:hover{
@@ -23,7 +23,7 @@ h1{
     color:gray;
 }
 
-#advanced{
+/*#advanced{
     font-family: Arial, sans-serif;
     color:black;
     text-decoration: none;
@@ -31,7 +31,7 @@ h1{
     font-size:13px;
     top: 30px;
     right: 45px;
-}
+}*/
 
 #advanced:hover{
     text-decoration:underline;
